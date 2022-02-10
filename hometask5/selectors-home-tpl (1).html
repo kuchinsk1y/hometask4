@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Selectors</title>
+	<style>
+		/* стили для задания */
+		.buttons {
+			cursor: pointer;
+			color: blue;
+			text-decoration: underline;
+		}
+		.buttons .is-active {
+			cursor: default;
+			color: green;
+			text-decoration: none;
+		}
+
+		/* пример выполнения */
+		.all * {
+			color: red;
+		}
+		.all-p p {
+			color: red;
+		}
+		.all-li li {
+			color: red;
+		}
+
+        .select-input-checkbox input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            box-shadow: 0 0 30px red;
+        }
+
+		.select-all-links-form-footer footer a {
+			color: red;
+		}
+
+		/* Ответы */
+
+		.select-form-all form {
+			width: 230px;
+			height: 25px;
+			box-shadow: 0 0 30px blue;
+		}
+
+		.all-input input[type="text"]{
+			box-shadow: 0 0 5px chartreuse;
+		}
+
+		.all-checkbox input[type="checkbox"]{
+			width: 20px;
+			height: 20px;
+			box-shadow: 0 0 30px blue;
+		}
+
+		.all-a a{
+			color: chartreuse;
+		}
+
+		.all-h h3{
+			color: darkorchid;
+		}
+
+		.all-footer footer {
+			color: deeppink;
+		}
+
+		.all-a-visited a:visited {
+			color: gold;
+		}
+
+		.all-a-footer footer li{
+			color: greenyellow;
+		}
+
+		.a-class-list ul{
+			color: darkred;
+		}
+
+		.li-a li {
+			color: tomato;
+		}
+
+		.block-message #block1{
+			width: 150px;
+			height: 150px;
+			box-shadow: 0 0 30px rgb(173, 3, 3);
+		}
+
+		.all-message #messages{
+			color: coral;
+		}
+
+		.all-footer-elements footer * {
+			color: lime;
+		}
+
+
+		.a-cursor-and-block-message #messages :hover {
+			color: springgreen;
+		}
+
+
+		.ul-footer footer #ul1 {
+			color: fuchsia;
+		}
+	</style>
+</head>
+<body>
+	<button class="remove-all">Remove all</button>
+
+	<hr>
+	<!-- значения аттрибута data-name будет пременено к тегу main как класс -->
+	<ul class="buttons">
+		<!-- /* пример выполнения */ -->
+		<li data-name="all">* {color: red}</li>
+		<li data-name="all-p">p {color: red}</li>
+		<li data-name="all-li">li {color: red}</li>
+		<!-- Ответы -->
+		<li data-name="select-form-all">select-form-all {box-shadow: 0 0 20px blue;}</li>
+		<li data-name="all-input">all-input {box-shadow: 0 0 5px chartreuse}</li>
+		<li data-name="all-checkbox">all-checkbox {box-shadow: 0 0 30px blue}</li>
+		<li data-name="all-a">all-a {color: chartreuse}</li>
+		<li data-name="all-h">all-h {color: darkorchid}</li>
+		<li data-name="all-footer">all-footer {color: deeppink}</li>
+		<li data-name="all-a-visited">all-a-visited {color: gold;}</li>
+		<li data-name="all-a-footer">all-a-footer {color: greenyellow}</li>
+		<li data-name="a-class-list">a-class-list {color: darkred}</li>
+		<li data-name="li-a">li-a {color: tomato}</li>
+		<li data-name="block-message">block-message {box-shadow: 0 0 30px rgb(173, 3, 3);}</li>
+		<li data-name="all-message">all-message {color: goldenrod}</li>
+		<li data-name="all-footer-elements">all-footer-elements {color: lime;}</li>
+		<li data-name="a-cursor-and-block-message">a-cursor-and-block-message {color: springgreen}</li>
+		<li data-name="ul-footer">ul-footer {color: fuchsia}</li>
+		<!-- Найти все элементы которые непосредственные потомки (дети) для body
+		Найти ссылки которые "активны" и дети для body (не возможно) -->
+
+<!--        <li data-name="select-input-checkbox">Выбрать input типа checkbox</li>-->
+<!--        <li data-name="select-all-links-form-footer">Найти ссылки в "подвале"</li>-->
+	</ul>
+	<hr>
+
+	<!-- ⬇️Сюда будут добавляться классы из списка выше (значения аттрибута data-name) ⬇️-->
+	<main>
+		<!-- тут можно вставить любую разметку -->
+
+		<ul>
+			<li>
+				<span>3. История создания и развития CSS</span>
+				<ul class="list">
+					<li><span>3.1 Уровень 1 (CSS1)</span></li>
+					<li>
+                        <a href="#"><span>3.2 Уровень 2 (CSS2)</span></a>
+						<ul class="list">
+							<li><span>3.2.1 Уровень 2, ревизия 1 (CSS2.1)</span></li>
+						</ul>
+					</li>
+					<li class="theme-color"><span>3.3 Уровень 3 (CSS3)</span></li>
+					<li><a href="#"><span>3.4 Уровень 4 (CSS4)</span></a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<p>CSS — одна из широкого спектра технологий, одобренных консорциумом W3C и получивших общее название «стандарты Web» В 1990-х годах стала ясна необходимость стандартизировать Web, создать какие-то единые правила, по которым программисты и веб-дизайнеры проектировали бы сайты. Так появились языки HTML 4.01 и XHTML, и стандарт CSS.</p>
+
+		<p><a href="#">В начале 1990-х различные</a> браузеры имели свои стили для отображения веб страниц. HTML развивался очень быстро и был способен удовлетворить все существовавшие на тот момент потребности по оформлению информации, поэтому CSS не получил тогда широкого признания.</p>
+
+		<p>Термин «каскадные таблицы стилей» был предложен Хокон Виум Ли в 1994 году. Совместно с Бертом Босом он стал развивать CSS.</p>
+
+		<p>В отличие от многих существовавших на <a href="#">тот момент языков стиля</a>, CSS использует наследование от родителя к потомку, поэтому разработчик может определить разные стили, основываясь на уже определенных ранее стилях.</p>
+
+		<p>В середине 1990-х Консорциум <a href="#">Всемирной паутины</a> (W3C) стал проявлять интерес к CSS, и в декабре 1996 года была издана рекомендация CSS1.</p>
+
+        <form action="#">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="text" id="message">
+        </form>
+
+        <section id="block1">
+        <h3 id="widget-title">Сообщения:</h3>
+        <ul id="messages" class="list">
+            <li id="message-1">Сообщение 1</li>
+            <li id="message-2">Сообщение 2</li>
+            <li id="message-3" data-action="delete">Сообщение 3</li>
+            <li id="message-4" data-action="edit do-not-delete">Сообщение 4</li>
+            <li id="message-5" data-action="edit delete">Сообщение 5</li>
+            <li><a href="#">...</a></li>
+        </ul>
+	    </section>
+
+        <a href="https://site.com/list.zip">Ссылка на архив</a>
+        <a href="https://site.com/list.pdf">..И на PDF</a>
+
+        <footer>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsam! Quibusdam eos ducimus veniam minima
+                dolorem suscipit voluptates ex temporibus, sit molestias sequi accusantium odit perspiciatis voluptas earum
+                quaerat rem.</h3>
+
+            <ul class="list" id="ul1">
+                <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li class="first"><a href="#">Commodi reiciendis iure, non laborum.</a></li>
+                <li><a href="#">Nostrum doloribus laborum, asperiores in.</a></li>
+            </ul>
+
+            <ul>
+                <li class="first"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li><a href="#">Commodi reiciendis iure, non laborum.</a></li>
+                <li><a href="#">Nostrum doloribus laborum, asperiores in.</a></li>
+            </ul>
+        </footer>
+	</main>
+
+	<!-- Сценарий для задания ☢ не трогать -->️
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script>
+        (function($) {
+            var $buttons = $('.buttons').find('li'),
+                $main = $('main'),
+                $removeBtn = $('.remove-all');
+
+            $removeBtn.on('click', removeAll);
+
+            $buttons.on('click', function(event) {
+				event.preventDefault();
+
+				var $target = $(this);
+				var dataClass = $target.data('name');
+
+                removeAll();
+
+                if (dataClass.split(' ').length > 1) {
+                    alert('remove spaces from attr value');
+                    return;
+                }
+
+                if (dataClass === '') {
+                    alert('attr value is empty');
+                    return;
+                }
+
+				$target.addClass('is-active');
+
+                $main
+                    .addClass(dataClass)
+                    .addClass('is-active');
+            });
+
+            function removeAll () {
+                $main.removeAttr('class');
+                $buttons.removeClass('is-active');
+            }
+        })(jQuery);
+	</script>
+</body>
+</html>
