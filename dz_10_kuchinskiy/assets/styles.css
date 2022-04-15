@@ -1,0 +1,105 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list {
+    background-color: #324e8f;
+    color: #c1c1c1;
+    border-bottom: 10px solid #171a21;
+}
+
+.menu-list > li {
+    float: left;
+}
+
+.menu-list li a {
+    position: relative;
+    display: block;
+    color: #c1c1c1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 20px 30px;
+    white-space: nowrap;
+    border: 2px solid #324e8f;
+}
+
+.menu-list li a:only-child:after {
+    content: "";
+}
+
+.menu-list li a:after {
+    content: "+";
+    position: absolute;
+    right: 0 ;
+    margin: 0 10px;
+}
+
+.menu-list li a:hover {
+    background-color: #199bfe;
+    color: white;
+    
+}
+
+.menu-list li a:hover + ul {
+    display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu-list li a + ul {
+    display: none;
+    position: absolute;
+    background-color: #199bfe;
+    margin-top: -1px;
+}
+
+.menu-list li a + ul:hover {
+    display: block;
+}
+
+.menu-list li a + ul li a {
+    color: #fff;
+    min-width: 250px;
+}
+
+.menu-list li a + ul li a + ul {
+    position: absolute;
+    left: 100%;
+    margin-top: -65px;
+}
+
+.header_item {
+    margin-left: 1038px;
+}
+
+.box {
+    background:url(../assets/img/Spider-Man.jpg);
+    height: 1000px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text1 {
+    padding: 50px;
+    color: white;
+    font-family:  Roboto, sans-serif;
+    padding: 60px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    width: 540px;
+    height: 67px;
+    left: 100px;
+    top: 270px;
+    position: absolute;
+}
+
