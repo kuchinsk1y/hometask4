@@ -1,0 +1,48 @@
+* {
+    font-family: 'Graphik LCG';
+}
+
+.blocks {
+    .control {
+        display: flex;
+        justify-content: space-between;
+
+        .block-control-1 {
+            margin-left: 75px;
+            margin-top: 241px;
+
+            .control-title {
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 60px;
+                height: 120px;
+                width: 493px;
+                padding-bottom: 30px;
+            }
+
+            .control-description {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                height: 120px;
+                width: 491px;
+
+                .tasks {
+                    color: #000000;
+                }
+            }
+            
+            .start p {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                margin-top: 30px;
+            } 
+        }
+
+        .control-logo {
+            margin-right: 75px;
+            margin-top: 90px;
+        }
+    }
+}

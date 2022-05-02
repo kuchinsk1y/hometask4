@@ -1,0 +1,35 @@
+.management {
+  width: 100%;
+  height: 332px;
+  background: #DABC98;
+}
+.management .blocks-management {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 89px;
+}
+.management .blocks-management .block-management-1 {
+  margin-left: 54px;
+}
+.management .blocks-management .block-management-1 .title-management-1 {
+  height: 100px;
+  width: 461px;
+  left: 223px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.management .blocks-management .hr-management {
+  height: 168px;
+  border: 1px solid #000000;
+}
+.management .blocks-management .block-management-2 {
+  display: flex;
+  padding-top: 50px;
+  margin-right: 137px;
+}
+.management .blocks-management .block-management-2 .img-group2 {
+  margin-right: 70px;
+}
+
+/*# sourceMappingURL=management.css.map */

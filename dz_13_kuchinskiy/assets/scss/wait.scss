@@ -1,0 +1,45 @@
+* {
+    font-family: 'Graphik LCG';
+}
+
+.wait {
+    height: 603px;
+    width: 100%;
+    background: #FF9C7D;
+    margin-top: 162px;
+    display: flex;
+    justify-content: center;
+
+    .block-wait {
+        .title-wait {
+            height: 150px;
+            width: 1099px;
+            font-size: 65px;
+            font-weight: 600;
+            line-height: 75px;
+            padding-top: 119px;
+        }
+
+        .p-wait {
+            height: 30px;
+            width: 438px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-left: 407px;
+        }
+    }
+
+    button {
+        margin-top: 54px;
+        height: 60px;
+        width: 160px;
+        background: #000000;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 531px;
+    }
+}
