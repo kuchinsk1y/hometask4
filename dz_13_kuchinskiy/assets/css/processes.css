@@ -1,0 +1,50 @@
+* {
+  font-family: "Graphik LCG";
+}
+
+.processes {
+  display: flex;
+  justify-content: center;
+}
+.processes .block-processes {
+  margin-top: 165px;
+}
+.processes .block-processes .title-processes {
+  height: 150px;
+  width: 791px;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  text-align: center;
+  margin-left: 150px;
+  padding-bottom: auto;
+}
+.processes .block-processes .p-processes .description-processes {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 25px;
+  align-items: center;
+  margin-left: 100px;
+}
+.processes .block-processes .img-processes {
+  padding-bottom: 20px;
+  height: 445px;
+  width: 1023px;
+}
+.processes .block-processes .button-processes {
+  display: flex;
+  justify-content: center;
+}
+.processes .block-processes .button-processes .text-button-processes {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #fff;
+}
+.processes button {
+  background-color: #FF6336;
+}
+
+/*# sourceMappingURL=processes.css.map */

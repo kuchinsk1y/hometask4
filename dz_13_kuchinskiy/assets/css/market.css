@@ -1,0 +1,38 @@
+.market {
+  display: flex;
+  justify-content: space-between;
+}
+.market a {
+  color: #000000;
+}
+.market .block-market-1 {
+  margin-left: 75px;
+  margin-top: 200px;
+}
+.market .block-market-2 {
+  margin-right: 75px;
+  margin-top: 401px;
+}
+.market .block-market-2 .title-market {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  height: 120px;
+  width: 379px;
+  padding-bottom: 30px;
+}
+.market .block-market-2 .market-description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  height: 150px;
+  width: 450px;
+}
+.market .block-market-2 p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 36px;
+}
+
+/*# sourceMappingURL=market.css.map */

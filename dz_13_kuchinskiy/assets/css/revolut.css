@@ -1,0 +1,29 @@
+.block-revolut {
+  display: flex;
+  justify-content: space-between;
+  height: 468px;
+  width: 100%;
+  background: #C9E8F2;
+  margin-top: 187px;
+}
+.block-revolut .block-revolut-1 {
+  margin-left: 75px;
+  padding-top: 63px;
+}
+.block-revolut .block-revolut-1 .description-revolut {
+  height: 160px;
+  width: 920.7018432617px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 23px;
+}
+.block-revolut .block-revolut-1 .title-revolut {
+  padding-top: 6.99px;
+}
+.block-revolut .block-revolut-2 {
+  padding-top: 53px;
+  margin-right: 75px;
+}
+
+/*# sourceMappingURL=revolut.css.map */

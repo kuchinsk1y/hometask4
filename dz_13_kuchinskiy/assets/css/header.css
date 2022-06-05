@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  margin-top: 25px;
+  margin-left: 93px;
+}
+
+.nav-menu-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: -652px;
+}
+.nav-menu-header li {
+  font-family: Graphik LCG;
+  list-style-type: none;
+  margin-right: 51px;
+}
+.nav-menu-header li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn-header {
+  margin-top: 16px;
+}
+.btn-header .btn-login {
+  width: 120px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 0px;
+  margin-right: 7px;
+}
+.btn-header .btn-login a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  text-decoration: none;
+  color: #000000;
+}
+.btn-header .btn-try {
+  width: 120px;
+  height: 45px;
+  background: #FF6336;
+  border-radius: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.btn-header .btn-try a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-hr {
+  border: 1px solid #E5E5E5;
+}
+
+/*# sourceMappingURL=header.css.map */

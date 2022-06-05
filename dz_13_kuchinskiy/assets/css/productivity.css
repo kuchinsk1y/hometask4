@@ -1,0 +1,91 @@
+.productivity .productivity-title {
+  height: 60px;
+  width: 1287px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-left: 325px;
+  padding-top: 154px;
+}
+.productivity .blocks-productivity {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.productivity .blocks-productivity .blocks-productivity-1 {
+  margin-left: 75px;
+}
+.productivity .blocks-productivity .blocks-productivity-1 .title-productivity-1 {
+  height: 40px;
+  width: 164px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 49px;
+  padding-bottom: 34px;
+}
+.productivity .blocks-productivity .blocks-productivity-1 .description-productivity-1 {
+  height: 180px;
+  width: 409px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+.productivity .blocks-productivity .blocks-productivity-1 .productivity-a-1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+.productivity .blocks-productivity .blocks-productivity-2 .title-productivity-2 {
+  height: 40px;
+  width: 168px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 67px;
+  padding-bottom: 48px;
+}
+.productivity .blocks-productivity .blocks-productivity-2 .description-productivity-2 {
+  height: 180px;
+  width: 409px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 26px;
+}
+.productivity .blocks-productivity .blocks-productivity-2 .productivity-a-2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+.productivity .blocks-productivity .blocks-productivity-3 {
+  margin-right: 78px;
+}
+.productivity .blocks-productivity .blocks-productivity-3 .title-productivity-3 {
+  height: 40px;
+  width: 166px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 58px;
+  padding-bottom: 34px;
+}
+.productivity .blocks-productivity .blocks-productivity-3 .description-productivity-3 {
+  height: 210px;
+  width: 407px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+.productivity .blocks-productivity .blocks-productivity-3 .productivity-a-3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=productivity.css.map */
